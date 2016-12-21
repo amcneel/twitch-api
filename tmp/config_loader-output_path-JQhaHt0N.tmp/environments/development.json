@@ -1,0 +1,1 @@
+{"modulePrefix":"twitch-api","environment":"development","rootURL":"/","locationType":"auto","EmberENV":{"FEATURES":{},"EXTEND_PROTOTYPES":{"Date":false}},"APP":{"name":"twitch-api","version":"0.0.0+64289ccd"},"exportApplicationGlobal":true}

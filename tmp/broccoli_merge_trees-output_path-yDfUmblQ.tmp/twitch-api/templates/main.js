@@ -1,0 +1,3 @@
+define("twitch-api/templates/main", ["exports"], function (exports) {
+  exports["default"] = Ember.HTMLBars.template({ "id": "fY0bXjZu", "block": "{\"statements\":[[\"open-element\",\"h2\",[]],[\"flush-element\"],[\"text\",\"main\"],[\"close-element\"],[\"text\",\"\\n\\n\\n\"],[\"append\",[\"unknown\",[\"model\"]],false],[\"text\",\"\\n\\n\\n\\n\\n\"],[\"append\",[\"unknown\",[\"outlet\"]],false],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[],\"hasPartials\":false}", "meta": { "moduleName": "twitch-api/templates/main.hbs" } });
+});

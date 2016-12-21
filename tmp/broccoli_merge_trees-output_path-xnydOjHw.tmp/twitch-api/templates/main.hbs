@@ -1,0 +1,11 @@
+<h2>main</h2>
+
+{{#each model as |stream|}}
+<div class="box">
+	<div class="title">{{stream-title title=stream.channel.name}}</div>
+
+</div>
+{{/each}}
+
+
+{{outlet}}

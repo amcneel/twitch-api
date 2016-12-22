@@ -1,13 +1,13 @@
 <br>
-<div id="header"><b>Displaying {{q}} Streams</b></div>
+<div id="header"><b>Displaying '{{q}}' Streams</b></div>
 
 <span id="numStreams"><i>Total results: {{model._total}}</i></span>
 
-<table>
+<table class="table table-striped">
 {{#each model.streams as |stream|}}
-
-	{{stream-view name=stream.channel.name game=stream.channel.game description=stream.channel.status viewers=stream.viewers pic=stream.preview.medium}}
-
+<tr>
+	{{stream-view name=stream.channel.name game=stream.channel.game description=stream.channel.status viewers=stream.viewers pic=stream.preview.medium url=stream.channel.url}}
+</tr>
 
 {{/each}}
 </table>

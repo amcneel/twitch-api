@@ -1,14 +1,27 @@
+body{
+	background-image: url(./bground.png);
+}
 #head{
 	font-size: 25px;
 	text-align: center;
-	border-style: solid;
-	border-width: 2px;
-			
+	
+}
+a{
+	color: #282a2d;
+	text-decoration-color: none;
+}
+a:hover{
+	color:#00A0C6;
+	text-decoration: none;
+	cursor: pointer;
 }
 td{
 	display: inline-block;
 	height: 100px;
 	vertical-align: text-top;
+}
+#viewerCount{
+	color: red;
 }
 img{
 	width: 50%;
@@ -27,6 +40,7 @@ img{
 .description{
 	overflow-wrap: break-word;
 	height: 50px;
+	font-size: 12px;
 }
 h2{
 	padding: 0px;

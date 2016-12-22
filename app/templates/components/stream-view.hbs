@@ -1,18 +1,17 @@
-<tr>
+
 	<td>
-		<div class="pic"><img src="{{pic}}" alt="Preview"></div>
+		<div class="pic"><a href={{url}}><img class="img-rounded" src="{{pic}}" alt="Preview"></a></div>
 	</td>
 	<td>
 	<div class="title">
-		<b>{{name}}</b>
+		<a href={{url}}><b>{{name}}</b></a>
 	</div>
 	<div class="gameName">
-		Game: {{game}} - {{viewers}} viewers
+		Game: {{game}} - <span id="viewerCount">{{viewers}} viewers</span>
 	</div>
 	<div class="description">
 		{{description}}
 	</div>
 	</td>
-</tr>
 
 {{yield}}

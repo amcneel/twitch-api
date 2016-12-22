@@ -2,9 +2,9 @@
 <div id='container'>
 	<div id='head'>
 		<h2>Twitch Stream Search</h2>
-		<form {{action "search" q on="submit"}}>
+		<form class="form-control" {{action "search" q on="submit"}}>
 		{{input value=q id="searchVal" placeholder="Search query..."}}
-		{{input type="submit" value="Search" id="submit"}}
+		{{input class="btn btn-xs" type="submit" value="Search" id="submit"}}
 		</form>
 	</div>
 
